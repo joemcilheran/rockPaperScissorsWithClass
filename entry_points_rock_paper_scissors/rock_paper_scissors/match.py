@@ -20,8 +20,11 @@ class match:
                 playerTwoWins.append(playerTwoName)
         if len(playerOneWins) == 3:
             print(playerOneName + " wins the match! \n")
+            input("Press enter to exit.")
+            
         elif len(playerTwoWins) == 3:
             print(playerTwoName + " wins the match! \n")
+            input("Press enter to exit.")
                     
         
     def play_with_one(self):

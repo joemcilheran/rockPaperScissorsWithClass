@@ -5,11 +5,11 @@ class human:
                 
         
     def give_name(self,playerName):
-        name = input(playerName + ",What is your name? \n")
+        name = input(playerName + ": what is your name? \n")
         return name
            
     def make_choice(self,playerName):
-        guess = input(playerName + ": Enter rock, paper, or scissors.\n")
+        guess = input(playerName + ": enter rock, paper, or scissors.\n")
         if guess == "rock":
             choice = 1
         elif guess == "paper":
